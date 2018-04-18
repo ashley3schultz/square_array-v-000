@@ -1,4 +1,4 @@
 def square_array(array)
-  array.each {|index| new = "#{index * index}"}
+  array(numbers).each {|index| new = "#{index * index}"}
 new
 end
