@@ -1,5 +1,5 @@
 def square_array(array)
   new = []
-  array.each {|index| << index * index}
+  array.each {|index| new << index * index}
   new
 end
