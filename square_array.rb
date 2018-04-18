@@ -1,6 +1,6 @@
 def square_array(array)
   array.each do |index|
-    numbers = [index * index]
+    index * index
   end
-  square_array(numbers)
+  square_array(index)
 end
