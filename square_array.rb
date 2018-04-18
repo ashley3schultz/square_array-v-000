@@ -1,4 +1,3 @@
 def square_array(array)
-  array.each {|index|index * index}
-    
-end
+  array.each {|index| puts "#{index * index}""
+    end
